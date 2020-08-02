@@ -313,3 +313,9 @@ goToTopBtn.addEventListener('click', () => {
 
 // On load
 getPhotos();
+if (apiKey === 'unsplash_developer_api_key') {
+  console.log(
+    "You'll need to clone this website from Github and enter an Unsplash Developer API Key first!",
+    'Instructions can be found at https://github.com/patel-priyank/infinite-scroll.'
+  );
+}
