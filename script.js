@@ -312,5 +312,4 @@ goToTopBtn.addEventListener('click', () => {
 });
 
 // On load
-hideErrorMessage();
 getPhotos();
