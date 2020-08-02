@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinite Scroll</title>
+    <link rel="icon" type="image/png" href="./loader-favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Title -->
+    <h1>Infinite Scroll</h1>
+
+    <!-- Image Container -->
+    <div class="image-container" id="image-container"></div>
+
+    <!-- Error Container -->
+    <div class="error-container" id="error-container" hidden>
+      Umm, task failed successfully?
+      <br />
+      <button class="reload" id="reload">
+        Try again
+      </button>
+    </div>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+      <img src="./loader.svg" alt="Loading..." />
+    </div>
+
+    <!-- Go to Top button -->
+    <button
+      class="go-to-top-btn animate__animated animate__fadeIn"
+      id="go-to-top-btn"
+      title="Go to top"
+    >
+      Λ
+    </button>
+
+    <!-- Script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
