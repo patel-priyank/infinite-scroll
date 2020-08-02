@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Infinite Scroll</title>
-    <link rel="icon" type="image/png" href="./loader-favicon.png" />
+    <link rel="icon" type="image/png" href="./favicon.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
@@ -20,17 +20,15 @@
     <div class="image-container" id="image-container"></div>
 
     <!-- Error Container -->
-    <div class="error-container" id="error-container" hidden>
-      Umm, task failed successfully?
-      <br />
-      <button class="reload" id="reload">
-        Try again
-      </button>
+    <div class="error-container" id="error-container">
+      We're having some trouble loading new images, but we do have a few
+      handpicked ones, in case you wanna
+      <a id="load-static" href="javascript:void(0)">load them</a>.
     </div>
 
     <!-- Loader -->
     <div class="loader" id="loader">
-      <img src="./loader.svg" alt="Loading..." />
+      <img src="./loader-img.svg" alt="Loading..." />
     </div>
 
     <!-- Go to Top button -->
