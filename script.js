@@ -6,7 +6,7 @@ const loadStaticBtn = document.getElementById('load-static');
 
 // Unsplash API
 const imageCount = 10;
-const apiKey = ''; // enter Unsplash developer API key here
+const apiKey = 'unsplash_developer_api_key'; // enter Unsplash developer API key here
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${imageCount}`;
 
 // Height to display Scroll to Top button
